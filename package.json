@@ -1,7 +1,7 @@
 {
   "name": "first-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Requiremnet-Analysis](https://docs.google.com/document/d/10mkjS8boCQzW4xpsESyzwCCLJcM3hvLghyD_TeXPBx0/edit?usp=sharing)",
   "main": "index.js",
   "scripts": {
     "start:prod": "node ./dist/server.js",
