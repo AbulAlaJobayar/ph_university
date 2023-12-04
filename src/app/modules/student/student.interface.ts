@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Model, Types } from 'mongoose';
 
 export type TUserName = {
@@ -44,6 +45,7 @@ export type TStudent = {
 //for creating static
 
 export interface StudentModel extends Model<TStudent> {
+ 
   isUserExists(id: string): Promise<TStudent | null>;
 }
 
